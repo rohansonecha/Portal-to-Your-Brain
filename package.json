@@ -1,0 +1,21 @@
+{
+  "name": "light-brain",
+  "version": "1.0.0",
+  "description": "An EEG-powered lightbulb by Moheeb Zara & Alex Glow. Control LEDs with your brain!   Full write-up to come: [https://www.hackster.io/glowascii/thinker-blinker-61406b](https://www.hackster.io/glowascii/thinker-blinker-61406b)",
+  "main": "index-party.js",
+  "scripts": {
+    "start": "node index-party",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.0",
+    "johnny-five": "^1.0.0",
+    "node-osc": "^6.1.16",
+    "osc": "^2.2.4",
+    "particle-io": "^0.15.0",
+    "playground-io": "^0.6.0",
+    "request": "^2.88.0"
+  }
+}
